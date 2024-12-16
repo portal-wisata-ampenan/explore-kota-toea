@@ -1,10 +1,7 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
-
 const App = () => {
   return (
-    <div className=''>Home</div>
-  )
-}
+    <div className='px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>App</div>
+  );
+};
 
-export default App
+export default App;

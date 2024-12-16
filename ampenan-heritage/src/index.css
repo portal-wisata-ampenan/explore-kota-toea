@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+body {
   background-color: #CD9E6A;
   width: 100vw;
-  fontFamily: "Geologica", sans-serif;
+  font-family: 'Geologica', sans-serif;
 }
