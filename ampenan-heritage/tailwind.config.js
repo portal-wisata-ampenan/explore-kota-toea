@@ -41,7 +41,7 @@ export default {
       textColor: {
         // Main
         title: "#FBF8F1",
-        p: "#450E03",
+        cp: "#450E03",
         // Button lable
         light: "#450E03",
       },
