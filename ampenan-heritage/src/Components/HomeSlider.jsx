@@ -34,7 +34,7 @@ const HomeSlider = () => {
       <Slider {...settings} className="w-full max-w-lg">
         {images.map((image, index) => (
           <div key={index} className="px-2"> {/* Add horizontal padding for gap */}
-            <img src={image} alt={`Slide ${index + 1}`} className='w-full rounded-2xl' />
+            <img src={image} alt={`Slide ${index + 1}`} className='w-full rounded-2xl shadow-md' />
           </div>
         ))}
       </Slider>
