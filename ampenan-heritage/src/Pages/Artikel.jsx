@@ -21,6 +21,7 @@ import Htr12 from "./../Assets/Past/htr12.jpg";
 import ContentB from "../Components/ContenB";
 import ContentA from "../Components/ContenAt";
 import ContentC from "../Components/ContentC";
+import Footer from "../Components/Footer";
 
 const App = () => {
   const [showRatingPopup, setShowRatingPopup] = useState(false);
@@ -38,12 +39,12 @@ const App = () => {
     <div className="w-screen min-h-screen px-4 overflow-hidden relative sm:px-8 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
       {/* Background */}
       <div className="block sm:hidden">
-        <img src={BackgroundP} alt="background" className="full-bg" />
-        <img src={PatternP} alt="background" className="pattern" />
+        <img src={BackgroundP} alt="background" className="bg-ar" />
+        <img src={PatternP} alt="background" className="pattern-4" />
       </div>
       <div className="hidden sm:block">
-        <img src={BackgroundL} alt="background" className="bg-ar" />
-        <img src={PatternL} alt="background" className="pattern-4" />
+        <img src={BackgroundL} alt="background" className="full-ar" />
+        <img src={PatternL} alt="background" className="pattern-5" />
       </div>
 
       {/* Main Content */}
@@ -177,6 +178,9 @@ const App = () => {
 
         {/* RATING POPUP */}
         <RatingPopup show={showRatingPopup} onClose={handleClosePopup} />
+
+        {/* FOOTER */}
+        <Footer />
       </div>
     </div>
   );

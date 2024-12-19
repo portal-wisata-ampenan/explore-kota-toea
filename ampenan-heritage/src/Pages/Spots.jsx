@@ -21,6 +21,7 @@ import SpotE2 from '../Assets/Sliders/Spot5/SpotE2.jpg';
 import SpotF1 from '../Assets/Sliders/Spot6/SpotF1.jpg';
 import SpotF2 from '../Assets/Sliders/Spot6/SpotF2.jpg';
 import Map from '../Components/Map';
+import Footer from '../Components/Footer';
 
 const sliderData = [
   { title: "Spot 1", images: [SpotA1, SpotA2] },
@@ -90,6 +91,9 @@ const Spots = () => {
 
         {/* RATING POPUP */}
         <RatingPopup show={showRatingPopup} onClose={handleClosePopup} />
+
+        {/* FOOTER */}
+        <Footer />
       </div>
     </div>
   );
