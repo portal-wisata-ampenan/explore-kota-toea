@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Arrow from '../Assets/Icons/arrow-left.svg';
 import Face from '../Assets/Icons/face.svg';
-import Menu from '../Assets/Icons/Menu.svg';
+import Menu from '../Assets/Icons/menu.svg';
 
 const Navbar = ({ onRatingClick }) => {
   return (
