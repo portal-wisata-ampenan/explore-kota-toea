@@ -53,3 +53,59 @@
   opacity: 15%;
   z-index: -2;
 }
+
+.bg-sp {
+  background-image: url("./Assets/Photoshop/bg-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  opacity: 50%;
+  left: 0;
+  z-index: -1;
+}
+
+.pattern-3 {
+  background-image: url("./Assets/Decors/pattern.svg");
+  background-size: 150vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 5%;
+  z-index: -2;
+}
+
+.bg-ar {
+  background-image: url("./Assets/Photoshop/bg-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  opacity: 20%;
+  left: 0;
+  z-index: -1;
+}
+
+.pattern-4 {
+  background-image: url("./Assets/Decors/pattern.svg");
+  background-size: 150vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 5%;
+  z-index: -2;
+}
