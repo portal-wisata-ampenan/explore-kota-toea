@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
       <Router>
         <Routes>
-          <Route path="/home" element={<App />} />
+          <Route path="/" element={<App />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/photo-spots" element={<Spots />} />
           <Route path="/history" element={<Artikel />} />
