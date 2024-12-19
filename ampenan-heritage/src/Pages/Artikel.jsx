@@ -21,7 +21,6 @@ import Htr12 from "./../Assets/Past/htr12.jpg";
 import ContentB from "../Components/ContenB";
 import ContentA from "../Components/ContenAt";
 import ContentC from "../Components/ContentC";
-import Footer from "../Components/Footer";
 
 const App = () => {
   const [showRatingPopup, setShowRatingPopup] = useState(false);
@@ -179,8 +178,6 @@ const App = () => {
         {/* RATING POPUP */}
         <RatingPopup show={showRatingPopup} onClose={handleClosePopup} />
 
-        {/* FOOTER */}
-        <Footer />
       </div>
     </div>
   );

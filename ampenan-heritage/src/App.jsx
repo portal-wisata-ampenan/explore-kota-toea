@@ -9,7 +9,6 @@ import PatternP from "./Assets/Decors/pattern.png";
 import BackgroundL from "./Assets/Photoshop/bg-ls.png";
 import PatternL from "./Assets/Decors/pattern-ls.png";
 import './Utils/Styles.css';
-import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -49,8 +48,6 @@ const App = () => {
           <HomeSlider />
         </div>
 
-        {/* FOOTER */}
-        <Footer />
       </div>
     </div>
   );
