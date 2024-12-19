@@ -57,7 +57,7 @@ const App = () => {
         <div className="hidden sm:block">
           <ul className="flex flex-wrap justify-end items-center pt-12 pb-4 gap-8 mb-8">
             <li className="text-title text-h6 hover:text-primary">
-              <Link to={"/home"}>Beranda</Link>
+              <Link to={"/"}>Beranda</Link>
             </li>
             <li
               className="text-title text-h6 hover:text-primary cursor-pointer"
